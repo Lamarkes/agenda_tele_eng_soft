@@ -5,22 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bc1304e-b9ab-4f55-9354-087010a8a9cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/catolica/controller/DeleteContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/catolica/controller/ListContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/catolica/controller/SaveContactController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/catolica/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/catolica/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/catolica/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/catolica/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2u29VQDaJG3G2VIVWBEs68b8Mg9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,9 +46,33 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "JUnit.ContactTest.executor": "Run",
+    "JUnit.ContactTest.getName.executor": "Run",
+    "JUnit.ContactTest.getNumber.executor": "Run",
+    "JUnit.ContactTest.setName.executor": "Run",
+    "JUnit.ContactTest.setNumber.executor": "Run",
+    "JUnit.ContactTest.testToString.executor": "Run",
+    "JUnit.DeleteContactControllerTest.handleDeleteContactByName.executor": "Run",
+    "JUnit.DeleteContactControllerTest.handleDeleteContactByNome.executor": "Run",
+    "JUnit.DeleteContactControllerTest.handleDeleteContactByNumero.executor": "Run",
+    "JUnit.DeleteContactServiceTest.deleteContactByName.executor": "Run",
+    "JUnit.DeleteContactServiceTest.deleteContactByNumber.executor": "Run",
+    "JUnit.ListContactControllerTest.handleShowContactByName.executor": "Run",
+    "JUnit.ListContactControllerTest.handleShowTotalOfContacts.executor": "Run",
+    "JUnit.ListContactServiceTest.showAllContacts.executor": "Run",
+    "JUnit.ListContactServiceTest.showContactByName.executor": "Run",
+    "JUnit.ListContactServiceTest.showContactByNumber.executor": "Run",
+    "JUnit.ListContactServiceTest.totalOfContacts.executor": "Run",
+    "JUnit.SaveContactControllerTest.handleSaveContact.executor": "Run",
+    "JUnit.SaveContactServiceTest.saveContact.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "lamark",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Projects/catolica/testes/agenda_tele_eng_soft/agenda_tele_eng_soft/src/main/java/br/edu/catolica/service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -42,23 +81,110 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.edu.catolica.App" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\catolica\testes\agenda_tele_eng_soft\agenda_tele_eng_soft\src\main\java\br\edu\catolica\service" />
+      <recent name="D:\Projects\catolica\testes\agenda_tele_eng_soft\agenda_tele_eng_soft\src\main\java\br\edu\catolica\model" />
+      <recent name="D:\Projects\catolica\testes\agenda_tele_eng_soft\agenda_tele_eng_soft\src\main\java\br\edu\catolica\controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.edu.catolica.controller" />
+      <recent name="br.edu.catolica.service" />
+      <recent name="br.edu.catolica.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SaveContactControllerTest.handleSaveContact">
+    <configuration name="DeleteContactControllerTest.handleDeleteContactByNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="agenda_tele_eng_soft" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.edu.catolica.*" />
+          <option name="PATTERN" value="br.edu.catolica.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="br.edu.catolica.controller" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.catolica.controller.DeleteContactControllerTest" />
+      <option name="METHOD_NAME" value="handleDeleteContactByNome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteContactControllerTest.handleDeleteContactByNumero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agenda_tele_eng_soft" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.edu.catolica.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.edu.catolica.controller" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.catolica.controller.DeleteContactControllerTest" />
+      <option name="METHOD_NAME" value="handleDeleteContactByNumero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListContactControllerTest.handleShowContactByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agenda_tele_eng_soft" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.edu.catolica.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.edu.catolica.controller" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.catolica.controller.ListContactControllerTest" />
+      <option name="METHOD_NAME" value="handleShowContactByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListContactControllerTest.handleShowTotalOfContacts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agenda_tele_eng_soft" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.edu.catolica.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.edu.catolica.controller" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.catolica.controller.ListContactControllerTest" />
+      <option name="METHOD_NAME" value="handleShowTotalOfContacts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaveContactControllerTest.handleSaveContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agenda_tele_eng_soft" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.edu.catolica.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.edu.catolica.controller" />
+      <option name="MAIN_CLASS_NAME" value="br.edu.catolica.controller.SaveContactControllerTest" />
+      <option name="METHOD_NAME" value="handleSaveContact" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.SaveContactControllerTest.handleSaveContact" />
+        <item itemvalue="JUnit.ListContactControllerTest.handleShowTotalOfContacts" />
+        <item itemvalue="JUnit.ListContactControllerTest.handleShowContactByName" />
+        <item itemvalue="JUnit.DeleteContactControllerTest.handleDeleteContactByNumero" />
+        <item itemvalue="JUnit.DeleteContactControllerTest.handleDeleteContactByNome" />
       </list>
     </recent_temporary>
   </component>
@@ -78,7 +204,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741435828579</updated>
-      <workItem from="1741435834159" duration="876000" />
+      <workItem from="1741435834159" duration="13384000" />
+      <workItem from="1741614330351" duration="1317000" />
+      <workItem from="1741622003409" duration="1967000" />
     </task>
     <servers />
   </component>
