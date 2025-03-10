@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bc1304e-b9ab-4f55-9354-087010a8a9cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/catolica/controller/DeleteContactController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/catolica/controller/ListContactController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/catolica/controller/SaveContactController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/catolica/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/catolica/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/catolica/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/edu/catolica/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +198,7 @@
       <updated>1741435828579</updated>
       <workItem from="1741435834159" duration="13384000" />
       <workItem from="1741614330351" duration="1317000" />
-      <workItem from="1741622003409" duration="1967000" />
+      <workItem from="1741622003409" duration="2267000" />
     </task>
     <servers />
   </component>
